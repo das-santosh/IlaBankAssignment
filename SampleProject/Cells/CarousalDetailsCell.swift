@@ -22,6 +22,7 @@ class CarousalDetailsCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    //MARK: data binding in below list cell
     func configureData(_ listObject: Detail) {
         headerImageView.image = UIImage(named: listObject.img ?? "placeholder")
         titleLabel.text = listObject.text
